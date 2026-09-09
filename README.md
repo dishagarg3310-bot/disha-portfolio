@@ -3,8 +3,7 @@
 A next-level, AI/ML-powered personal portfolio website built to showcase my education journey, projects, and internship experience — with a dashboard-style navigation instead of a plain single-page scroll.
 
 ## 🌐 Live Site
-_(add your deployed link here once hosted)_
-
+https://disha-portfolio-j8o8.onrender.com/
 ## ✨ Features
 
 - **Education Timeline** — 10th, 12th, and semester-wise (Sem 1–7) dashboards with SGPA seals, subjects, and projects built each semester
