@@ -1,16 +1,49 @@
-# React + Vite
+# Disha Agrawal — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A next-level, AI/ML-powered personal portfolio website built to showcase my education journey, projects, and internship experience — with a dashboard-style navigation instead of a plain single-page scroll.
 
-Currently, two official plugins are available:
+## 🌐 Live Site
+_(add your deployed link here once hosted)_
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Education Timeline** — 10th, 12th, and semester-wise (Sem 1–7) dashboards with SGPA seals, subjects, and projects built each semester
+- **Projects** — Detailed pages for flagship AI/ML projects (BVP-AIMS, EMIPredict AI, Tourism Experience Analytics, Shopper Spectrum, VaakAI, Smart Attendance System, Multi-Agent AI Customer Support System) with problem statements, tech stack, features, and results
+- **Experience** — Clickable internship cards (Airkrit, Labmentix, Reasonate AI) with detailed write-ups on tools, learnings, and assignments, plus embedded offer letters
+- **Skills** — Categorized tech stack (Programming Languages, Core CS Fundamentals, AI/ML Frameworks, ML/Data Tools, Backend & Data)
+- **Custom splash screen** with letter-by-letter animated reveal
+- **Page-load animations** across all dashboards
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the Oxlint configuration
+- React.js (Vite)
+- React Router (multi-page dashboard navigation)
+- Plain CSS (custom dark theme, no UI framework)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 📂 Project Structure
+
+```
+src/
+├── assets/          # images, offer letters, marksheets
+├── components/      # Navbar, SplashScreen, ImageCarousel
+├── data/            # education.js, projects.js, experience.js, skills.js
+├── pages/           # Home, EducationPage, SemesterPage, ProjectsPage,
+│                    # ProjectDetailPage, ExperiencePage, ExperienceDetailPage,
+│                    # SkillsPage
+├── App.jsx
+└── App.css
+```
+
+## 🚀 Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+## 👩‍💻 About Me
+
+B.Tech CSE student at Banasthali Vidyapith, building AI/ML-powered systems — from multi-agent placement platforms to financial risk prediction models.
+
+---
+Built by Disha Agrawal
